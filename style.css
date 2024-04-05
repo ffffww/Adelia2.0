@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Irish Grover";
+    src: url("/fonts/IrishGrover-Regular.ttf");
+}
+
 :root {
     --mint:#69ECA5;
     --yellow:#F4EE61;
@@ -45,9 +50,8 @@ header {
 
 .logo_brand {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-
     width: 430px;
     height: 100px;
     background-color: var(--yellow);
@@ -55,8 +59,9 @@ header {
 }
 
 .logo_brand p {
-    margin-left: 30px;
-    font-family: "Irish Grover", system-ui;
+    padding-right: 30px;
+    font-family: "Irish Grover";
+    letter-spacing: 5px;
     font-weight: 400;
     font-size: 50px;
 }
@@ -95,8 +100,4 @@ header {
 
 .violet {
     background-color: var(--violet);
-}
-
-.navigation-menu {
-
 }
