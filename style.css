@@ -15,6 +15,10 @@
     margin: 0;
 }
 
+li {
+    list-style: none;
+}
+
 a { 
     text-decoration: none;
 }
@@ -145,11 +149,8 @@ header {
     height: 50px;
 }
 
-.background {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    left: 10px;
+.card {
+    display: block;
     border-radius: 35px;
     background-color: #dcdada;
     width: 340px;
@@ -157,32 +158,33 @@ header {
 
 }
 
-.one-sneakers img {
+.sneakers_img {
     display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    padding-left: 25px;
-    padding-bottom: 80px;
-    width: 290px;
-    height: 290px;
+    margin: 20px;
+    padding-top: 20px;
 }
 
-.one-sneakers p {
-    padding-top: 250px;
-    padding-left: 10px;
+
+.sneakers_price {
     font-size: 25px;
 }
 
-.basket {
+.sneakers_buy {
     display: flex;
-    position: absolute;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 25px;
     width: 204px;
     height: 60px;
     padding-left: 5px;
+    position: fixed;
+    bottom: 3px;
+    left: 68px;
     background-color: var(--violet);
     border-radius: 30px;
 }
+
+.sneakers_buy p {
+    font-size: 25px;
+}
+
