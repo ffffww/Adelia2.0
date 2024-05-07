@@ -48,11 +48,12 @@ header {
 }
 
 .logotype img {
-    position: relative;
-    top: 100px;
+    position:absolute;
+    top: 10px;
 }
 
 .logo_brand {
+    position: relative;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -203,10 +204,26 @@ header {
     border-radius: 30px;
 }
 
+.basket {
+    background: none;
+}
+
 .sneakers_buy p {
     font-size: 25px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 88008a81084ab1a90e1b96dbc3de93ed35c10da3
+footer {
+    background-color: var(--mint);
+}
+
+.end {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.point li {
+    list-style: circle;
+}
