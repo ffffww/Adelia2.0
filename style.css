@@ -194,8 +194,8 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 204px;
-    height: 60px;
+    width: 200px;
+    height: 55px;
     margin-top: 8px;
     padding-left: 5px;
     bottom: 3px;
@@ -209,7 +209,7 @@ header {
 }
 
 .sneakers_buy p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 footer {
@@ -221,9 +221,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    padding-top: 5px;
 }
 
-.point li {
+.end p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.end li {
     list-style: circle;
 }
